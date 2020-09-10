@@ -1,0 +1,93 @@
+.logo {
+  width: 190px;
+  height: 120px;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
+.logo-title {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  width: 190px;
+  height: 120px;
+  background-image: url(http://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite.png);
+  /* 设置背景图片大小的 */
+
+  /* 
+        cover 保持 图片本身的宽高比  覆盖当前区域
+    */
+}
+.logo-bg {
+  display: inline-block;
+  background-size: auto 100%;
+  width: 134px;
+  height: 120px;
+  background-image: url("http://img1.360buyimg.com/da/jfs/t1/15264/1/11653/343050/5c90a38aEdb3eb3a8/f0c3252484139946.gif?v=0.5685689793017517");
+}
+.animate-end.hover-out {
+  z-index: 1 !important;
+}
+.show-bg {
+  z-index: -1;
+}
+
+.search {
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  padding-left: 70px;
+}
+.search-box {
+  width: 546px;
+  height: 32px;
+  margin-top: 25px;
+  border: 2px solid #e2231a;
+  background: #fff;
+  position: relative;
+}
+.search-box input {
+  padding: 2px 44px 2px 17px;
+  width: 425px;
+  height: 26px;
+  border: 1px solid transparent;
+  line-height: 26px;
+  font-size: 12px;
+  outline: none;
+}
+.search-box .search-item {
+  right: 0;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  position: absolute;
+  background-color: #e1251b;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.search-box .photo {
+  position: absolute;
+
+  right: 40px;
+  top: 8px;
+  display: inline-block;
+  width: 40px;
+  height: 32px;
+}
+.search-box .search-list {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 488px;
+  position: absolute;
+  top: 35px;
+  left: -2px;
+  display: none;
+  z-index: 90;
+}
+.search-box .search-list li {
+  line-height: 24px;
+  padding-left: 1px 6px;
+}

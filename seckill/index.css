@@ -1,0 +1,83 @@
+.seckill-countdown {
+    width: 190px;
+    height: 260px;
+    float: left;
+}
+.seckill-list {
+    width: 800px;
+    height: 260px;
+    float: left;
+    background-color: #Fff;
+}
+.seckill-brand {
+    width: 200px;
+    height: 260px;
+    float: left;
+}
+.seckill-countdown a{
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 100%;
+    color: #fff;
+    background-color: #e83632;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.seckill-countdown .countdown-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+    color: #fff;
+}
+
+.seckill-countdown .countdown-desc {
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.seckill-countdown .countdown-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    display: block;
+    /* color: #333; */
+    color: #fff;
+    font-weight: 700;
+}
+.seckill-countdown .countdown-main .timmer__unit {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #2f3430;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.seckill-countdown .countdown-main .timmer__unit:after {
+    content: ":";
+    display: block;
+    position: absolute;
+    right: -20px;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 20px;
+    height: 100%;
+    top: 0;
+}
+.seckill-countdown .countdown-main .timmer__unit--second {
+    margin-right: 0;
+}
+.seckill-countdown .countdown-main .timmer__unit--second::after{
+    content: "";
+}
